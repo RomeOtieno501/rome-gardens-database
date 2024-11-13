@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './componenets/Header';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <Router>
+       <h1>Rome Gardens</h1>
+       <h2>The Million Dollar Experience</h2>
+      <Header/>
+    </Router>
   );
 }
 
