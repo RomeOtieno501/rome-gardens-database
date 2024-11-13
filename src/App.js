@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import GuestList from './components/GuestList';
+import GuestDetail from './components/GuestDetail';
 
 function App() {
   const [guests, setGuests] = useState([]);
@@ -23,7 +24,10 @@ function App() {
        <h2>The Million Dollar Experience</h2>
       <Header/>
       <Routes>
-      <Route path="/" element={<GuestList guests={guests} onDelete={deleteGuest} />} />
+       <Route path="/" element={<GuestList guests={guests} onDelete={deleteGuest} />} />
+       <Route path="/guest/:id" element={<GuestDetail />} />
+       
+
       </Routes>
     </Router>
   );
