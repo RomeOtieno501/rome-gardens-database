@@ -1,11 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function GuestList({ guests, onDelete }) {
-  const handleDelete = (id) => {
-    fetch(`/guests/${id}`, { method: 'DELETE' })
-      .then(() => onDelete(id));
-  };
+function GuestList({ guests }) {
 
   return (
     <div>
@@ -14,7 +10,6 @@ function GuestList({ guests, onDelete }) {
         {guests.map((guest) => (
           <li key={guest.id}>
             <Link to={`/guest/${guest.id}`}>{guest.name}</Link>
-            <button onClick={() => handleDelete(guest.id)}>Delete</button>
           </li>
         ))}
       </ul>
