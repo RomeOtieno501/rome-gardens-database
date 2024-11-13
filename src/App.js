@@ -6,6 +6,7 @@ import GuestList from './components/GuestList';
 import GuestDetail from './components/GuestDetail';
 import AddGuestForm from './components/AddGuestForm';
 import EditGuestForm from './components/EditGuestForm';
+import HotelDescription from './components/HotelDescription';
 
 function App() {
   const [guests, setGuests] = useState([]);
@@ -34,7 +35,15 @@ function App() {
        <h2>The Million Dollar Experience</h2>
       <Header/>
       <Routes>
-       <Route path="/" element={<GuestList guests={guests} onDelete={deleteGuest} />} />
+      <Route
+          path="/"
+          element={
+            <>
+              <HotelDescription />
+              <GuestList guests={guests} onDelete={deleteGuest} />
+            </>
+          }
+      />
        <Route path="/guest/:id" element={<GuestDetail />} />
        <Route path="/add" element={<AddGuestForm onAddGuest={addGuest} />} />
        <Route path="/edit/:id" element={<EditGuestForm guests={guests} onUpdateGuest={updateGuest} />} />
