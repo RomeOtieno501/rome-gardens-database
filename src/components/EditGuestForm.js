@@ -36,9 +36,9 @@ function EditGuestForm({ guests, onUpdateGuest }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-      <input type="text" value={room} onChange={(e) => setRoom(e.target.value)} />
-      <input type="text" value={status} onChange={(e) => setStatus(e.target.value)} />
+      <input type="text" value={name} placeholder='Name' onChange={(e) => setName(e.target.value)} />
+      <input type="text" value={room} placeholder='Room' onChange={(e) => setRoom(e.target.value)} />
+      <input type="text" value={status} placeholder='Status' onChange={(e) => setStatus(e.target.value)} />
       <button type="submit">Update Guest</button>
     </form>
   );
