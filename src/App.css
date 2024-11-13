@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Layout */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4a90e2;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #d1e8ff;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+  }
+  
+  /* Guest List */
+  .guest-list {
+    list-style-type: none;
+  }
+  
+  .guest-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .guest-list li:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .guest-list a {
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .guest-list button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  .guest-list button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Forms */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input[type="text"],
+  form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  form button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #357ab8;
+  }
+  
+  /* Detail Page */
+  .guest-detail {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guest-detail p {
+    margin: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .guest-list li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
