@@ -3,24 +3,21 @@ import React from 'react';
 function HotelDescription() {
   return (
     <div className="hotel-description">
-      <section class="description">
+      <section>
         <h2>About Our Hotel</h2>
-        <p>Rome Gardens is a luxurious 5-star hotel nestled in the heart of Nairobi. With breathtaking views, top-notch facilities, and elegant rooms, we offer the ultimate in comfort and style.</p>
+        <p>Rome Gardens is a luxurious 5-star hotel nestled in the heart of Nairobi...</p>
       </section>
-
-      <section class="location">
+      <section>
         <h2>Location</h2>
-        <p>Conveniently located just 10 minutes away from Nairobi National Museum, we provide easy access to all the major attractions in the city, making us the perfect choice for tourists and business travelers alike.</p>
+        <p>Conveniently located just 10 minutes away from Nairobi National Museum...</p>
       </section>
-
-      <section class="prices">
+      <section>
         <h2>Prices</h2>
-        <p>Our rates start at Ksh 10,000 per night, with options ranging from standard rooms to luxury suites. Special discounts are available for long stays and group bookings.</p>
+        <p>Our rates start at Ksh 10,000 per night...</p>
       </section>
-
-      <section class="activities">
+      <section>
         <h2>Activities</h2>
-        <p>Enjoy our on-site spa, swimming pool, and gourmet dining, or explore nearby historical landmarks, vibrant markets, and top-tier shopping destinations.</p>
+        <p>Enjoy our on-site spa, swimming pool, and gourmet dining...</p>
       </section>
     </div>
   );

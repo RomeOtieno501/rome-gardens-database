@@ -1,102 +1,146 @@
-body {
-    font-family: Arial, sans-serif;
+/* General styling */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #1a73e8;
+  }
+  
+  .header h2 {
+    font-size: 1.2em;
     color: #333;
   }
   
-  header nav {
-    background-color: #333;
-    padding: 1rem;
+  /* Navigation Styles */
+  .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hotel Description Styles*/
+  .hotel-description {
+    margin-bottom: 20px;
+  }
+  
+  .hotel-description h2 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-description section {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Guest List Styles*/
+  .guest-list h2 {
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 15px;
+  }
+  
+  .guest-list ul {
+    list-style: none;
+  }
+  
+  .guest-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 8px;
   }
   
-  header nav a {
-    color: white;
+  .guest-link {
+    color: #333;
     text-decoration: none;
-    padding: 0.5rem 1rem;
   }
   
-  header nav a:hover {
-    background-color: #555;
+  .guest-link:hover {
+    text-decoration: underline;
   }
   
-  h2 {
-    color: #444;
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Forms Styles*/
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
   button {
-    background-color: #333;
+    background-color: #1a73e8;
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #555;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    max-width: 400px;
-    margin: 1rem auto;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: white;
-  }
-  
-  input {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  ul li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .guest-list {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .hotel-description {
-    text-align: center;
-    background-color: #e0f7fa;
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 10px;
-  }
-  
-  .hotel-description h1 {
-    color: #00796b;
-  }
-  
-  .hotel-description p {
-    color: #004d40;
-    font-size: 1.1rem;
+    background-color: #155a9c;
   }
   

@@ -31,23 +31,29 @@ function App() {
 
   return (
     <Router>
-       <h1>Rome Gardens</h1>
-       <h2>The Million Dollar Experience</h2>
-      <Header/>
-      <Routes>
-      <Route
-          path="/"
-          element={
-            <>
-              <HotelDescription />
-              <GuestList guests={guests} onDelete={deleteGuest} />
-            </>
-          }
-      />
-       <Route path="/guest/:id" element={<GuestDetail />} />
-       <Route path="/add" element={<AddGuestForm onAddGuest={addGuest} />} />
-       <Route path="/edit/:id" element={<EditGuestForm guests={guests} onUpdateGuest={updateGuest} />} />
-      </Routes>
+      <div className="app">
+        <header className="header">
+          <h1>Rome Gardens</h1>
+          <h2>The Million Dollar Experience</h2>
+        </header>
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <HotelDescription />
+                  <GuestList guests={guests} onDelete={deleteGuest} />
+                </>
+              }
+            />
+            <Route path="/guest/:id" element={<GuestDetail />} />
+            <Route path="/add" element={<AddGuestForm onAddGuest={addGuest} />} />
+            <Route path="/edit/:id" element={<EditGuestForm guests={guests} onUpdateGuest={updateGuest} />} />
+          </Routes>
+        </main>
+      </div>
     </Router>
   );
 }

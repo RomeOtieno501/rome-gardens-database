@@ -8,13 +8,13 @@ function GuestList({ guests, onDelete }) {
   };
 
   return (
-    <div>
+    <div className="guest-list">
       <h2>Guest List</h2>
       <ul>
         {guests.map((guest) => (
-          <li key={guest.id}>
-            <Link to={`/guest/${guest.id}`}>{guest.name}</Link>
-            <button onClick={() => handleDelete(guest.id)}>Delete</button>
+          <li key={guest.id} className="guest-item">
+            <Link to={`/guest/${guest.id}`} className="guest-link">{guest.name}</Link>
+            <button onClick={() => handleDelete(guest.id)} className="delete-button">Delete</button>
           </li>
         ))}
       </ul>
