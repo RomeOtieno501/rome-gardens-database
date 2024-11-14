@@ -2,70 +2,70 @@
   "guests": [
     { 
       "id": 1, 
-      "name": "John Doe", 
+      "name": "Rome Otieno", 
       "room": 101, 
       "status": "Checked In" 
     },
       
     { 
       "id": 2, 
-      "name": "Jane Smith", 
+      "name": "Treva Odhiambo", 
       "room": 102, 
       "status": "Checked Out" 
     },
 
     { 
       "id": 3, 
-      "name": "Alice Johnson", 
+      "name": "Katelyne Aluoch", 
       "room": 103, 
       "status": "Checked In" 
     },
 
     { 
       "id": 4, 
-      "name": "Bob Brown", 
+      "name": "Jessicah Gweth", 
       "room": 104, 
       "status": "Checked Out" 
     },
 
     { 
       "id": 5, 
-      "name": "Charlie Davis", 
+      "name": "Eric Ojuro", 
       "room": 105, 
       "status": "Checked In" 
     },
 
     { 
       "id": 6, 
-      "name": "Diana Evans", 
+      "name": "Maureen Akoth", 
       "room": 106, 
       "status": "Checked Out" 
     },
 
     { 
       "id": 7, 
-      "name": "Ethan Harris", 
+      "name": "Brian Austin", 
       "room": 107, 
       "status": "Checked In" 
     },
 
     { 
       "id": 8, 
-      "name": "Fiona Green", 
+      "name": "Lavine Loice", 
       "room": 108, 
       "status": "Checked Out" 
     },
 
     { 
       "id": 9, 
-      "name": "George White", 
+      "name": "Dennis Kiboi", 
       "room": 109, 
       "status": "Checked In" 
     },
 
     { 
       "id": 10, 
-      "name": "Hannah Black", 
+      "name": "Emmanuel Mutugi", 
       "room": 110, 
       "status": "Checked Out" 
     }
