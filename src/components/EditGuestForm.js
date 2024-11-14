@@ -22,7 +22,7 @@ function EditGuestForm({ guests, onUpdateGuest }) {
     e.preventDefault();
     const updatedGuest = { ...guest, name, room, status };
 
-    fetch(`/guests/${id}`, {
+    fetch(`http://localhost:4000/guests/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedGuest),

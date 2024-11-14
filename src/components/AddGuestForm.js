@@ -9,7 +9,7 @@ function AddGuestForm({ onAddGuest }) {
     e.preventDefault();
     const newGuest = { name, room, status };
 
-    fetch('/guests', {
+    fetch('http://localhost:4000/guests', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newGuest),
