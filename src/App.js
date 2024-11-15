@@ -12,7 +12,7 @@ function App() {
   const [guests, setGuests] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4000/guests')
+    fetch('https://json-server-template-ruhj.onrender.com')
       .then((res) => res.json())
       .then((data) => setGuests(data));
   }, []);
