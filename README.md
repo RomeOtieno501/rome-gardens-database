@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# **Rome Gardens Database**  
+A simple hotel database application to help hotel receptionists manage guest records efficiently.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+By **Rome Otieno Ojuro**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Description**  
+This is a simple hotel database system designed for hotel receptionists to streamline guest management. The application allows receptionists to add, edit, search, and delete guest records, providing a comprehensive view of guest details and enabling better customer care and vacancy tracking.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**  
+- View a list of guests and their details.  
+- Add new guests to the guest list for improved customer service.  
+- Edit guest details for accurate and up-to-date records.  
+- Delete guest entries to manage vacancies and streamline operations.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **How to Use**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Requirements**  
+- A computer with database management capabilities.  
+- Access to the application (locally or online).  
+- Basic computer literacy.  
 
-### `npm run build`
+### **User Stories**  
+- **As a receptionist**, I want to be able to view a list of guests and their details.  
+- **As a receptionist**, I want to be able to add guests to the guest list for maximum customer care.  
+- **As a receptionist**, I want to be able to delete guests from the guest list to track available vacancies.  
+- **As a receptionist**, I want to be able to edit certain details for certain guests.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Local Development**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Requirements**  
+- Node.js installed on your computer.  
+- Database software (e.g., SQLite, MySQL).  
+- A code editor (e.g., VS Code).  
+- Terminal/Command Line.  
 
-### `npm run eject`
+### **Installation Process**  
+1. Clone this repository using:  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone git@github.com:RomeOtieno501/rome-gardens-database.git
+   
+   Or download a ZIP file of the code.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd rome-gardens-database
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the required dependencies:
 
-## Learn More
+   ```bash
+   npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Set up the database connection:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   -Configure the .env file with database credentials.
 
-### Code Splitting
+5. Run the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
 
-### Analyzing the Bundle Size
+6. Open your browser and visit http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## **Technologies Used**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-React JS: Component-based user interface development
+-CSS3: Styling and animations
+-JavaScript (ES6): Dynamic rendering and interactivity
+-React Router: Navigation between pages
+-Netlify: Deployment and hosting
 
-### Advanced Configuration
+## Related Repositories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Backend API
+Repository: [Blog API Repository](https://github.com/RomeOtieno501/json-server-template.git)
+Deployed API: [Live API URL](https://json-server-template-ruhj.onrender.com)
 
-### Deployment
+## Support and contact Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you have any questions, suggestions, or need assistance, please contact:
 
-### `npm run build` fails to minify
+Email: otienorome2@gmail.com
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
+
+Copyright © 2024 Dennis Kiboi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+  
