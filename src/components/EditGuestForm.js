@@ -22,7 +22,7 @@ function EditGuestForm({ guests, onUpdateGuest }) {
     e.preventDefault();
     const updatedGuest = { ...guest, name, room, status };
 
-    fetch(`https://json-server-template-ruhj.onrender.com/${id}`, {
+    fetch(`https://json-server-template-ruhj.onrender.com/guests/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedGuest),

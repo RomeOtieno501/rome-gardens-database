@@ -6,7 +6,7 @@ function GuestDetail() {
   const [guest, setGuest] = useState(null);
 
   useEffect(() => {
-    fetch(`https://json-server-template-ruhj.onrender.com/${id}`)
+    fetch(`https://json-server-template-ruhj.onrender.com/guests/${id}`)
       .then((res) => res.json())
       .then((data) => setGuest(data));
   }, [id]);

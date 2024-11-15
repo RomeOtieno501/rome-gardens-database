@@ -9,7 +9,7 @@ function AddGuestForm({ onAddGuest }) {
     e.preventDefault();
     const newGuest = { name, room, status };
 
-    fetch('https://json-server-template-ruhj.onrender.com', {
+    fetch('https://json-server-template-ruhj.onrender.com/guests', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newGuest),

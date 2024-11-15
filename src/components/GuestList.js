@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function GuestList({ guests, onDelete }) {
   const handleDelete = (id) => {
-    fetch(`https://json-server-template-ruhj.onrender.com/${id}`, { method: 'DELETE' })
+    fetch(`https://json-server-template-ruhj.onrender.com/guests/${id}`, { method: 'DELETE' })
       .then(() => onDelete(id));
   };
 
